@@ -7,12 +7,17 @@
 
 <main>
   <input type="text" bind:value={input}>
+  <hr>
   <div>
     {@html kt}
   </div>
 </main>
 
 <style>
+input {
+  font-size: 30px;
+  width: 700px; 
+}
 :global(.katex) {
   font-size: 60px;
 }
